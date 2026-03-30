@@ -87,8 +87,8 @@ AXS builds on the [Agent Experience (AX)](https://agentexperience.ax) movement i
 
 ## Licence
 
-Apache 2.0. See [LICENCE](LICENCE).
+Apache 2.0. See [LICENCE](https://opensource.org/license/Apache-2.0).
 
 ## Author
 
-[Satender Kundu](link). Product Manager. Background in NPS measurement methodology, GTM strategy, and big data engineering. Based in the Netherlands.
+[Satender Kundu](https://satenderkundu.com). Worked on NPS measurement and methodology at Vodafone, with additional background in product GTM strategy and big data engineering across Scholastic EMEA and ITC Hotels. From India, based in the Netherlands.
