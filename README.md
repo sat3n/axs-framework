@@ -12,6 +12,12 @@ As the [AX community](https://agentexperience.ax) has established, Agent Experie
 
 AXS provides objective, reproducible, comparable scoring for service-side Agent Experience.
 
+> **Note:** AXS is an independent open-source framework. It is not affiliated
+> with AirShelf's AX Score, Sharpen Technologies' AXS, or any other prior use
+> of the acronym. This framework specifically provides an open, reproducible
+> methodology for scoring service-side AI Agent Experience across all service
+> categories.
+
 ## The Framework
 
 AXS scores services across **seven dimensions** on a **0–100 scale**:
