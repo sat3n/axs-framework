@@ -1,0 +1,24 @@
+# macOS
+**/.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# Logs & scratch
+*.log
+.env
+node_modules/
+tmp/
+temp/
