@@ -1,3 +1,9 @@
+---
+title: Scoring Methodology
+parent: Framework
+nav_order: 1
+---
+
 # AXS Scoring Methodology v0.1
 
 ## Overview

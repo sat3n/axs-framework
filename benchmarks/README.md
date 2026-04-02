@@ -1,3 +1,9 @@
+---
+title: Benchmarks
+nav_order: 4
+permalink: /benchmarks/
+---
+
 # Benchmarks
 
 This directory contains published AXS benchmark results organised by service category.

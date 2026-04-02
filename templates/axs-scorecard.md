@@ -1,3 +1,8 @@
+---
+title: Scorecard Template
+nav_order: 3
+---
+
 # AXS Scorecard: [Service Name]
 
 ## Assessment Details

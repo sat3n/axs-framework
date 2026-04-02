@@ -1,3 +1,8 @@
+---
+title: Acknowledgements
+nav_order: 7
+---
+
 # Acknowledgements
 
 ## Framework Development

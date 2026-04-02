@@ -1,3 +1,8 @@
+---
+title: Contributing
+nav_order: 5
+---
+
 # Contributing to AXS
 
 Contributions improve this framework. The most valuable contribution is scoring real services and submitting results. Theory without data is worthless here.

@@ -1,3 +1,8 @@
+---
+title: Changelog
+nav_order: 6
+---
+
 # Changelog
 
 All notable changes to the AXS framework are documented here.
