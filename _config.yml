@@ -1,0 +1,45 @@
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Site identity
+title: "AXS: Agent Experience Score"
+description: >-
+  An open-source framework for measuring how well digital services
+  support AI agent interaction. Objective, reproducible, comparable
+  scoring for service-side Agent Experience.
+
+url:     "https://sat3n.github.io"
+baseurl: "/axs-framework"
+
+# Theme settings
+color_scheme: default
+search_enabled: true
+nav_sort: order
+
+# Aux links (top-right header)
+aux_links:
+  "GitHub":
+    - "https://github.com/sat3n/axs-framework"
+aux_links_new_tab: true
+
+# Footer
+footer_content: >-
+  Copyright &copy; 2026 Satender Kundu.
+  Distributed under the
+  <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>.
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Markdown
+markdown:    kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - vendor/
+  - .git/
+  - .github/
+  - LICENCE

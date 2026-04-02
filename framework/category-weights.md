@@ -1,3 +1,9 @@
+---
+title: Category Weights
+parent: Framework
+nav_order: 3
+---
+
 # Category-Specific Dimension Weights
 
 ## Default Weights

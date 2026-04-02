@@ -1,3 +1,13 @@
+---
+title: Home
+layout: home
+nav_order: 1
+description: >-
+  An open-source framework for measuring how well digital services
+  support AI agent interaction.
+permalink: /
+---
+
 # AXS: Agent Experience Score
 
 An open-source framework for measuring how well digital services support AI agent interaction.
