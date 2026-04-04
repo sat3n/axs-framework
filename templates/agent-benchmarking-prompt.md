@@ -43,8 +43,11 @@ Do not proceed to Step 1 until you have read all four files.
    or `X-API-Version` header). Record it exactly (e.g. `REST API v3.1`,
    `MCP server 2024-11-05`). A scorecard without a recorded API version is invalid.
 
-5. **Define 3 standardised tasks** representative of common agent use cases for this
-   service type. Tasks must be:
+5. **Check for existing standardised tasks.** Before defining tasks yourself, check
+   whether a `benchmarks/[category]/tasks.md` file already exists in the repository.
+   If it does, use those tasks exactly as written — do not modify them. If no
+   `tasks.md` exists for the category, define 3 standardised tasks representative
+   of common agent use cases for this service type. Tasks must be:
    - Achievable on a free, developer, or self-hosted tier
    - Specific enough to be reproducible by another assessor
    - Representative of what an agent would realistically do with this service
@@ -280,8 +283,40 @@ and a specific evidence note. Save the completed file to:
 benchmarks/[category]/results/[service-name].md
 ```
 
-Tag your submission `[single-agent]` and `[single-pass]` since this is a single-agent,
-single-pass assessment.
+Tag your submission as applicable:
+- Add `[single-agent]` if this assessment was conducted by a single agent model.
+- Add `[single-pass]` if this was a single-pass assessment (one round of testing,
+  no follow-up passes with additional credentials or retesting).
+- Omit a tag if it does not apply (e.g. if two passes were conducted, omit
+  `[single-pass]`).
+
+### Before Submitting
+
+**Mandatory fields checklist** — submissions missing any of these will be returned:
+
+- [ ] Service name and exact API version
+- [ ] Primary pathway tested and all available pathways listed
+- [ ] Agent model(s) and version(s) used
+- [ ] Date(s) of assessment
+- [ ] Methodology version (currently v0.1)
+- [ ] Service tier/plan tested
+- [ ] Evidence for every score (specific observations, quoted error messages, timing data — not impressions)
+
+**Quality thresholds:**
+
+| Requirement | Community submission | Official leaderboard |
+|-------------|---------------------|---------------------|
+| Agent models tested | 1 minimum | 2 minimum (different providers) |
+| Assessment passes | 1 minimum | 2 minimum (14+ days apart) |
+| Probe task included | Encouraged | Required (1 per assessment) |
+| Edge case requests | Encouraged | Required (2+ per assessment) |
+| Tags | `[single-agent]` and/or `[single-pass]` as applicable | No tags required |
+
+Community submissions with tags are welcome and valuable even without leaderboard rigour.
+
+**Conflict of interest:** If you work for the service being scored, or a direct
+competitor, state this in your PR description. Your submission is still welcome.
+Transparency is what matters.
 
 ### Executive Summary
 
