@@ -17,6 +17,12 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) co
 
 ## [Unreleased]
 
+### Added
+- v0.1.0 git tag and GitHub release
+
+### Changed
+- Improved release description for accuracy
+
 ---
 
 ## [0.1.0] – 2026-03-28
