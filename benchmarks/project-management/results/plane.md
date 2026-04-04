@@ -297,10 +297,10 @@ server: cloudflare
 ### Latency data
 
 ```
-# Pass 1 — unauthenticated (auth-rejection responses, from Paris CDN edge)
+# Pass 1 — unauthenticated (tool: curl, auth-rejection responses, from Paris CDN edge)
 p50=248ms  p95=500ms  min=212ms  max=500ms
 
-# Pass 2 — authenticated: GET /work-items/?per_page=10 (10 requests)
+# Pass 2 — authenticated: GET /work-items/?per_page=10 (tool: Python requests, 10 requests)
 Request  1: 601ms
 Request  2: 508ms
 Request  3: 542ms
