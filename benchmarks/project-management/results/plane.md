@@ -20,7 +20,7 @@
 | Service | Plane |
 | URL | https://plane.so / https://api.plane.so |
 | Category | Project Management |
-| Assessor | GitHub Copilot |
+| Assessor | rnormgeek (with GitHub Copilot assistance) |
 | Date | 2026-04-01 |
 | Agent Used | Claude Sonnet 4.6 |
 | Tier/Plan Tested | Cloud (Free/self-serve) |
@@ -52,6 +52,8 @@
 ---
 
 ## Standardised Tasks (Project Management)
+
+Tasks based on early draft – aligned with the now-published standardised tasks in `benchmarks/project-management/tasks.md`:
 
 1. Create a project named "AXS-Test-[UNIX-TIMESTAMP]" (replace [UNIX-TIMESTAMP] with current Unix timestamp, e.g. 1743690000) containing exactly 5 tasks. Each task must have: unique title, one-sentence description, due date exactly 7 days from today in ISO format (YYYY-MM-DD).
 2. Take the first task from the project created in Task 1, change its status to "In Progress", and add the comment: "Agent benchmark test - step 2".
